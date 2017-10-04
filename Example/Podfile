@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OnlineSDKLib_Example' do
+  pod 'OnlineSDKLib', :path => '../'
+
+  target 'OnlineSDKLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
