@@ -1,0 +1,6 @@
+framework module OnlineSDKLib {
+  umbrella header "OnlineSDKLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
