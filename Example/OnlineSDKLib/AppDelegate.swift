@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        OPGSDK.initialize(withUserName: "OnePointDevelopers", withSDKKey: "opg-ind-blr-OnePointGlobalApp")
-        OPGSDK.setAppVersion("iOSSDK-IOS-1.0.0-O")
+        OPGSDK.initialize(withUserName: "", withSDKKey: "")
+        OPGSDK.setAppVersion("")
         return true
     }
 
