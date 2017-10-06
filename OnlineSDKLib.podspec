@@ -18,7 +18,7 @@ My First SDK to take mobile surveys
 
   s.ios.deployment_target = '8.0'
   # s.source_files = 'OnlineSDKLib/Classes/**/*'
-  s.ios.vendored_library = 'libOnePointSDK.a'
+  s.ios.vendored_library = 'lib/libOnePointSDK.a'
   s.preserve_paths = 'libOnePointSDK.a'
 
   s.source_files = "include/OPGSDK/*.h"

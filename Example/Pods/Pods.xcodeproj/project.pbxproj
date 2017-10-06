@@ -71,7 +71,6 @@
 		651EE5ACC81C02B4A2375DF25D3A18F8 /* OPGAvailabilityDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGAvailabilityDeprecated.h; path = include/OPGSDK/OPGAvailabilityDeprecated.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6843EAB52EF014221CA9E46F65BC2A2D /* OPG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPG.h; path = include/OPGSDK/OPG.h; sourceTree = "<group>"; };
-		68EEC5BC2BCF52968EB170C76F274F72 /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libOnePointSDK.a; sourceTree = "<group>"; };
 		6B0437C7FDFB922715FCF6B2F85EF05B /* OPGBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGBaseController.h; path = include/OPGSDK/OPGBaseController.h; sourceTree = "<group>"; };
 		6C1813170DC786946DF12E6FD99212AE /* OPGConfigParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGConfigParser.h; path = include/OPGSDK/OPGConfigParser.h; sourceTree = "<group>"; };
 		6D4C12E3AEFD0EEAE75F991BCE469F98 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extensions.h"; path = "include/OPGSDK/NSDictionary+Extensions.h"; sourceTree = "<group>"; };
@@ -89,6 +88,7 @@
 		946234785D88BC4744C569F3D7051869 /* Pods-OnlineSDKLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnlineSDKLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		963DB5D6714DD042D0677052410AA1F7 /* OPGShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGShared.h; path = include/OPGSDK/OPGShared.h; sourceTree = "<group>"; };
 		97F37A0215C596A6EAEC4FCB06CBAB95 /* OPGParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGParseResult.h; path = include/OPGSDK/OPGParseResult.h; sourceTree = "<group>"; };
+		982741C696ADA7BF05E1B751DA41408F /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
 		99EEBF652478859C8DADCEAD7429427A /* Pods-OnlineSDKLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnlineSDKLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9A0D46DCE82CE56B1913CAF547130FE8 /* OPGCommandDelegateImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCommandDelegateImpl.h; path = include/OPGSDK/OPGCommandDelegateImpl.h; sourceTree = "<group>"; };
 		A3A47FB7F64792B303EC89DD0EF04216 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -235,14 +235,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		7F82AE0131E0C9E314B2081B5BFD6580 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				68EEC5BC2BCF52968EB170C76F274F72 /* libOnePointSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,7 +324,7 @@
 				0D1C1E77A184257B6D7C55B13C1D1CEF /* UIDevice+Extensions.h */,
 				098081E55D6E65C1AE7B5F51BBAE9544 /* UIImage+CropScaleOrientation.h */,
 				BC5A7576F31FB363C7555DEE85C9A271 /* zxing-all-in-one.h */,
-				7F82AE0131E0C9E314B2081B5BFD6580 /* Frameworks */,
+				FC4E09C9874477556DAD428AF9497279 /* Frameworks */,
 				6725EE177A8C602A4E8D2CF27C5B90A4 /* Resources */,
 				4A1199067F563932985CEAB34AAA7D54 /* Support Files */,
 			);
@@ -364,6 +356,14 @@
 			);
 			name = "Pods-OnlineSDKLib_Tests";
 			path = "Target Support Files/Pods-OnlineSDKLib_Tests";
+			sourceTree = "<group>";
+		};
+		FC4E09C9874477556DAD428AF9497279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982741C696ADA7BF05E1B751DA41408F /* libOnePointSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
