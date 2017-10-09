@@ -18,3 +18,8 @@
 #import "OPGPanellistProfile.h"
 #import "OPGChangePassword.h"
 #import "OPGSurveyPanel.h"
+
+
+
+#import "OPGGeoFence.h"
+#import "OPGGeofenceSurvey.h"
